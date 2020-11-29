@@ -25,5 +25,5 @@ function showitem() {
   itemIndex++;
   if (itemIndex > items.length) {itemIndex = 1}    
   items[itemIndex-1].style.display = "flex";  
-  setTimeout(showitem, 2500);
+  setTimeout(showitem, 2300);
 }
